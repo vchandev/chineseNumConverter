@@ -4,7 +4,7 @@ Unlike numerals written in Western languages which are grouped by thousands (1,0
 
 Chinese numerals often work differently than their Western counterparts. For example, instead of "eleven", it is 十一 (ten + one). For 20, it is 二十 (two * ten); for 200, it is 二百 (two * hundred); and for 2,000, it is 二千 (two * thousand). But after that, it is not (twenty * thousand) in Chinese numerals. Instead, it is 二萬 (two * ten-thousand) and every 4 unit places, it repeats with the higher unit place. Therefore, for 200,000, it is 二十萬 (twenty * ten-thousands) and so on.
 
-For smaller numbers under 100,000, the program tries division at every unit place level. For example, for 5,234, it appends the the value of the unit from each unit place level (key) and the unit itself (value). The final string is returned and printed.
+For smaller numbers under 100,000, the program tries division at every unit place level. For example, for 5,234, it appends the value of the unit from each unit place level (key) and the unit itself (value). The final string is returned and printed.
 
 <img width="200" alt="screen shot 2018-04-29 at 11 51 25 pm" src="https://user-images.githubusercontent.com/25806927/39414660-536d9598-4c08-11e8-8586-2851c14c6c1e.png">
 
@@ -12,7 +12,7 @@ For larger numbers than 100,000, the unit value at the 10,000 is first evaluated
 
 <img width="210" alt="screen shot 2018-04-29 at 11 57 13 pm" src="https://user-images.githubusercontent.com/25806927/39414761-422f2430-4c09-11e8-8e3d-189aa49e7841.png">
 
-With this, we can translated numbers that are in the millions. Such as:
+With this, we can translate numbers that are in the millions. Such as:
 
 2,547,923
 
